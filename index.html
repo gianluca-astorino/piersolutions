@@ -1,23 +1,18 @@
 <!DOCTYPE HTML>
-
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Home | Pier Solutions</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Pier Solutions offers custom software solutions to clients around the globe!" />
-        	<meta name="author" content="Pier Solutions" />
+		<meta name="description" content="At Pier Solutions, we offer custom software solutions to clients around the globe!" />
+        <meta name="author" content="Pier Solutions" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/pier-solutions-logo(update).png"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161398664-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-161398664-1');
-        </script>
 	</head>
 	<body class="is-preload" style="border: 0.5px solid rgb(233, 233, 29);">		
 		
@@ -43,7 +38,7 @@
 				</div>
 			</div>
 					<!-- <span class="icon solid major fa-cloud"></span> -->
-					<span><img style="height: 80px; width: 80px;" src="images/pier-solutions-logo(update).png"></span>
+					<span><img style="height: 80px; width: 80px;" src="../piersolutions-master/img/pier-solutions-logo(update).png"></span>
 					<h1> Pier Solutions <strong></strong><br />
 					</h1>
 					<p>Offering custom software solutions to clients around the globe <span class="icon solid fa-cloud"></span></p>
@@ -61,10 +56,10 @@
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h2>Custom Web Design and Development<br />
+								<h2>Custom Software Solutions<br />
 								</h2>
 							</header>
-							<p>Our team custom designs and devlops all of our projects in house. We hand code our projects to make sure each website is specific to each client, something you won't find anywhere else!</p>
+							<p>Here at Pier Solutions, we pride ourselves in our custom designed and developed software solutions. From websites to mobile applications, we've got it all. We make sure all of our software is custom coded to fit exactly your business, and is specific to who and what your business represents!</p>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
 							<span class="image fit"><img src="images/email-4284157_1280.png" alt="" /></span>
@@ -79,28 +74,50 @@
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<ul class="major-icons">
-								<li><span class="icon solid style1 major fa-code"></span></li>
-								<li><span class="icon solid style2 major fa-desktop"></span></li>
-								<li><span class="icon solid style3 major fa-envelope"></span></li>
-								<li><span class="icon solid style4 major fa-cart-arrow-down"></span></li>
-								<li><span class="icon solid style5 major fa-cloud"></span></li>
-								<li><span class="icon solid style6 major fa-calendar"></span></li>
+								<li><span class="icon solid style1 major fa-code" id="code"></span></li></a>
+								<li><span class="icon solid style2 major fa-desktop" id="desktop"></span></li>
+								<li><span class="icon solid style3 major fa-phone" id="phone"></span></li>
+								<li><span class="icon solid style4 major fa-cart-arrow-down" id="cart"></span></li>
+								<li><span class="icon solid style5 major fa-cloud" id="cloud"></span></li>
+								<li><span class="icon solid style6 major fa-calendar" id="calender"></span></li>
 							</ul>
 						</div>
 						<div class="col-6 col-12-medium">
 							<header class="major">
 								<h2>What makes us different & <br/>
 								Who we are</h2>
+								<p style="font-size: 20px;">Side note: Click on the icons for more details :)</p>
 							</header>
 							<p>At Pier Solutions, we are determined to providing you with custom, high quality websites and software solutions, built to define you and your brand. Each and every website and software solution is custom coded to ensure our clients stands out from the rest.</p>
-							<p>In terms of other companies, when building a website with them, typically you get standard, limited templates, where they just touch up the template, the same as every other client, but not at Pier Solutions.</p>
-							<p>Our business model let's businesses and entrepreneurs tell a story, share their brand and have an online brand that defines there business, and let's people know that YOU are YOU!</p>
+							<p>Our business model allows businesses and entrepreneurs tell a story, share their brand and have an online presence that defines there business, and let's people know that YOU are YOU!</p>
 							<p>Click <a href="services.html">HERE</a> to find out about upcoming releases!</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			
+			<script>
+				 code.addEventListener('click', function() {
+					alert("We pride ourselves in our custom coded software solutions. We custom design and develop everything in house, so you have a website / app that represents YOU!");
+				 });
+				 desktop.addEventListener('click', function() {
+					alert("The software that we design and develop for you is and always will be accessible for you to use on both mobile and desktop (except mobile apps, of course!), where we are happy to offer all our solutions mobile and desktop friendly!");
+				 });
+				 phone.addEventListener('click', function() {
+					alert("Our 24/7 Customer Support will make sure that your applications are running non-stop, with no issues at all!");
+				 });
+				 cart.addEventListener('click', function() {
+					alert("Our e-commerce solutions will make sure you get the application you deserve! Client's often come to us because of how secretly expensive website builders are, and how hard they are to use. They are not unique, and they are standard. We guarantee client uniqueness, and will work as hard as we can to satisfy our clients.");
+				 });
+				 cloud.addEventListener('click', function() {
+					alert("ALL of our software solutions are hosted on cloud. What does that mean? Well basically, in a short-form, offers faster speeds, and allows you as a client to easily manage your application all through the web. ");
+				 });
+				 calender.addEventListener('click', function() {
+					alert("To keep this plain and simple, we deliver, and we deliver fast. We don't have a 9-5 here, we work as hard as we can to get you your project, as soon as possible, because we believe no one should have to wait.");
+				 });
+				 
+			</script>
 
 			
 
